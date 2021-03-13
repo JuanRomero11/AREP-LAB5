@@ -7,11 +7,23 @@ import java.util.ArrayList;
 import java.util.List;
 import org.bson.Document;
 
+/**
+ * The Class ServicesDataMongo.
+ */
 public class ServicesDataMongo {
+    
+    /** The conexion. */
     MongoClient conexion = null;
+    
+    /** The database. */
     public MongoDatabase database=null;
+    
+    /** The collection. */
     public MongoCollection<Document> collection =null;
 
+    /**
+     * Instantiates a new services data mongo.
+     */
     public ServicesDataMongo() {
         System.out.println("----------213132123---------" );
         this.conexion =  new MongoClient("localhost",27017);
@@ -21,6 +33,13 @@ public class ServicesDataMongo {
         this.collection= database.getCollection("Datos");
     }
 
+    /**
+     * Adds the dato.
+     *
+     * @param dato the dato
+     * @param date the date
+     * @return the string
+     */
     public String addDato(String dato,String date) {
         System.out.println("ENTRE 1");
        
@@ -37,6 +56,11 @@ public class ServicesDataMongo {
         return "Dato añadido";
     }
 
+    /**
+     * Gets the all datos.
+     *
+     * @return the all datos
+     */
     public List<String> getAllDatos() {
     
         ArrayList<Document> temp = new ArrayList<>();

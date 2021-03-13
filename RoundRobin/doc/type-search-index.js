@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"edu.eci.escualing.arep.AppLoundRoundRobin","l":"App"},{"p":"edu.eci.escualing.arep.AppLoundRoundRobin","l":"AppTest"}];updateSearchResults();

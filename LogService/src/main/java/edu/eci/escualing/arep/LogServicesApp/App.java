@@ -5,15 +5,23 @@ import java.util.Date;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import static spark.Spark.*;
+
+
 /**
- * Class App!
- * 
+ * Class App!.
+ *
  * @Author JuanRomero11
  */
 public class App {
    
+    /** The datosservice. */
     public static ServicesDataMongo datosService =null;
 
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     */
     public static void main(String[] args) {
         port(getPort());
         
@@ -36,6 +44,11 @@ public class App {
         }, gson ::toJson);
     }
 
+    /**
+     * Gets the port.
+     *
+     * @return the port
+     */
     private static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));

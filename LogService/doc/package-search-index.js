@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.eci.escualing.arep.AppLoundRoundRobin"},{"l":"edu.eci.escualing.arep.LogServicesApp"},{"l":"edu.eci.escualing.arep.LogServicesApp.servicesImpl"}];updateSearchResults();
