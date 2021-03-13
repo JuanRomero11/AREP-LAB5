@@ -80,7 +80,7 @@ Como esta explicito en el resumen y en el documento latex. Para realizar el depl
 
 Como resultado se obtiene.
 
-![alt text](https://github.com/JuanRomero11/AREP-LAB5/blob/main/images/dockeLocal.PNG)
+![alt text](https://github.com/JuanRomero11/AREP-LAB5/blob/main/images/dockerLocal.PNG)
 
 
 ### Creacion de Containers Local
